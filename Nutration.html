@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Pizza Hut</title>
+</head>
+<body style="background-color: #EBEBEB;">
+    <!--==================== H E A D E R ====================-->
+    <header class="header" style="  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);" id="header">
+        <nav class="nav container">
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/img/pizzahutLogo.png" width="50px" alt=""></a>
+
+
+            <div class="nav__menu" id="nav-menu">
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="sign.html" class="nav__link active-link"> <i class="fas fa-sign-in-alt"></i> Sign</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="createAcc.html" class="nav__link"> <i class="fas fa-user-plus"></i> create Account</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="FindPizzaHut.html" class="nav__link"> <i class="fas fa-thumbtack"></i> Find a Pizza Hut</a>
+                    </li>
+
+
+                </ul>
+                <section class="MenuAppSection">
+                    <div class="MenuApp">
+                        <div class="MenuAppContentIMg">
+                            <img src="/assets/img/pizzahutLogo.png" width="40px" alt="">
+                        </div>
+                        <div class="MenuAppContentTxt">
+                            <p>Login To Unlock exclusive</p>
+                            <h5>Deals And Discounts</h5>
+                        </div>
+
+                        <div class="MenuAppContentBtn">
+                            <a href="" >Sign in</a>
+                        </div>
+                    </div>
+
+                    <div class="language">
+                        <div class="StartLanjuagE">
+                            <div class="LangOne">
+                                <i class="fas fa-globe"> Language :</i>
+                            </div>
+                            <div class="LangTwo">
+                                <a href=""> العربيه</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                <section class="navUp">
+                    <div class="questions__item" style="margin-left: -40px; margin-top: 20px;">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Menu List
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                <a class="ancorLinkFirst_menu_list" href="deals.html">Deals</a>
+                                <br>
+                                <br>
+                                <a class="ancorLink_menu_list"  href="pizza.html">Pizza</a>
+                                <br>
+                                <br>
+                                <a class="ancorLink_menu_list" href="Starters.html">Starters</a>
+                                <br>
+                                <br>
+                                <a class="ancorLink_menu_list" href="salads.html">Salads</a>
+                                <br>
+                                <br>
+                                <a class="ancorLink_menu_list" href="deserts.html">Desert</a>
+                                <br>
+                                <br>
+                                <a class="ancorLink_menu_list" href="drinks.html">Drinks</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                    <div class="FaQToCallUs">
+                        <a href="">FAQ</a>
+                        <br>
+                        <br>
+                        <a href="">Terms & Conditions</a>
+                    </div>
+                    <br>
+                    <a href="" class="cALLUss">Call Us</a>
+                    
+                </section>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <a href="" class="Arabica"> العربيه</a>
+        </nav>
+
+        <section class="NaviGatioNS">
+
+            <ul class="navigationX">
+                <li><a class="link_OF_Navigation2" href="deals.html">Deals</a></li>
+                <li><a class="link_OF_Navigation2" href="pizza.html">Pizza</a></li>
+                <li><a class="link_OF_Navigation2" href="Starters.html">Starters</a></li>
+                <li><a class="link_OF_Navigation2" href="salads.html">Salads</a></li>
+                <li class="menuX">
+                    <a href="">More <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="submenuX">
+                        <li><a href="deserts.html">Desert</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <!--  -->
+                <ul class="navigationZ">
+                    <li><a href="">EGP 00.00</a></li>
+                    <li><a href="cart.html"> Cart</a></li>
+                    <li><a onclick="togglePopOrdaring();" class="START_OR_daring" href="#">Start Your Order</a></li>
+                    
+                </ul>
+            </ul>
+            
+        </section>
+    </header>
+
+
+
+    <!--==================== OUR HISTORY ====================-->
+    <section class="our_history" >
+        <div class="container our_history_container1" >
+            <div>
+                <h1>NUTRATION INFORMATION</h1>
+            </div>
+            
+            
+        </div>
+        <!-- <a href="index.html" ><i class="fas fa-chevron-left"></i></a> -->
+<section class="nutrationAPP">
+    <div class="container-fluid our_history_container2" style="background-color: #FFFFFF; padding-top: 50px; border-radius: 5px; margin-left: 140px; margin-right: 140px;">
+        <section class="steps section container">
+
+            <div class="steps__bg" style="margin-top: -180px; padding-left: 100px;">
+                <div class="steps__container grid">
+                    <div class="steps__card" style="width: 340px; background-color: #EBEBEB;">
+                        <div class="steps__card-number">
+                            <!-- <img src="assets/img/nutri_image_1.png" style="margin-left: 115px;"  alt=""> -->
+                        </div>
+                        <img src="assets/img/nutri_image_1.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="">
+                        <div class="nutri_big_box">
+                            <h3 class="steps__card-title" style="color: #f1373d;">Active Lifestyle</h3>
+                            <p class="steps__card-description" style="padding: 30px;">
+                                Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.
+                            </p>
+                            <div class="card_descriptionDIV1" >
+                                <div class="card_CHILD-DIV1" >
+                                    <p>Male <br> (age 18 to 60)</p>
+                                    <p>2500 - 3000 kcal</p>
+                                    <p>950 to 1140</p>
+                                </div>
+
+                                <div class="card_CHILD-DIV2" >
+                                    <p>Male <br> (age 18 to 60)</p>
+                                    <p>2500 - 3000 kcal</p>
+                                    <p>950 to 1140</p>
+                                    <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="steps__card" style="width: 340px; background-color: #EBEBEB;">
+                        <div class="steps__card-number">
+                            <!-- <img src="assets/img/nutri_image_1.png" style="margin-left: 115px;"  alt=""> -->
+                        </div>
+                        <img src="assets/img/nutri_image_1.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="">
+                        <div class="nutri_big_box">
+                            <h3 class="steps__card-title" style="color: #f1373d;">Active Lifestyle</h3>
+                            <p class="steps__card-description" style="padding: 30px;">
+                                Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.
+                            </p>
+                            <div class="card_descriptionDIV1" >
+                                <div class="card_CHILD-DIV1" >
+                                    <p>Male <br> (age 18 to 60)</p>
+                                    <p>2500 - 3000 kcal</p>
+                                    <p>950 to 1140</p>
+                                </div>
+
+                                <div class="card_CHILD-DIV2" >
+                                    <p>Male <br> (age 18 to 60)</p>
+                                    <p>2500 - 3000 kcal</p>
+                                    <p>950 to 1140</p>
+                                    <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steps__card" style="width: 340px; background-color: #EBEBEB;">
+                    <div class="steps__card-number">
+                        <!-- <img src="assets/img/nutri_image_1.png" style="margin-left: 115px;"  alt=""> -->
+                    </div>
+                    <img src="assets/img/nutri_image_1.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="">
+                    <div class="nutri_big_box">
+                        <h3 class="steps__card-title" style="color: #f1373d;">Active Lifestyle</h3>
+                        <p class="steps__card-description" style="padding: 30px;">
+                            Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.
+                        </p>
+                        <div class="card_descriptionDIV1" >
+                            <div class="card_CHILD-DIV1" >
+                                <p>Male <br> (age 18 to 60)</p>
+                                <p>2500 - 3000 kcal</p>
+                                <p>950 to 1140</p>
+                            </div>
+
+                            <div class="card_CHILD-DIV2" >
+                                <p>Male <br> (age 18 to 60)</p>
+                                <p>2500 - 3000 kcal</p>
+                                <p>950 to 1140</p>
+                                <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+
+
+        <p class="end_ofP1">
+            *For people with moderate physical activity and average weight... and if you're smart about food choices,than there can still be room .
+        </p>
+            <hr>
+            <br>
+
+            <div class="container-fluid" style="padding: 50px; background: #fff;">
+                <h5 style="text-align: center;">Balanced Meals Served Fresh at Your Table.</h5>
+                <p style="text-align: center; padding: 15px; font-size: 15px; color: #000;">Our pizzas are our pride! That’s why we at Pizza Hut use only the freshest and tastiest ingredients to give you equal slices.</p>
+                <div class="row" style="display: flex; justify-content: space-between;">
+
+                    <div class="col-md-3" style=" margin-right: 40px; border: 1px solid #EBEBEB; margin-left: 5px;">
+                        <h4 style="text-align: left; padding-left: 15px; color: #f1373d;">Nothing But the Best for you!</h4>
+                        <p style="text-align: left; padding: 15px;">Our Quality Assurance Team defends our high standards harder than any Italian football squad. To be a Pizza Hut supplier means passing a very rigorous selection process, and undergoing regular thorough checks. All to ensure you savor a natural, fresh and simply delicious experience every time.</p>
+                    </div>
+                    <div class="col-md-3" style="  border: 1px solid #EBEBEB; margin-left: 5px; margin-right: 40px;">
+                        <h4 style="text-align: left; padding-left: 15px; color: #f1373d;">Nothing But the Best for you!</h4>
+                        <p style="text-align: left; padding: 15px; font-size: 14px;;">Our Quality Assurance Team defends our high standards harder than any Italian football squad. To be a Pizza Hut supplier means passing a very rigorous selection process, and undergoing regular thorough checks. All to ensure you savor a natural, fresh and simply delicious experience every time.</p>
+                    </div>
+                    <div class="col-md-3" style="border: 1px solid #EBEBEB; margin-right: 5px;">
+                        <h4 style="text-align: left; padding-left: 15px; color: #f1373d;">Nothing But the Best for you!</h4>
+                        <p style="text-align: left; padding: 15px;">Our Quality Assurance Team defends our high standards harder than any Italian football squad. To be a Pizza Hut supplier means passing a very rigorous selection process, and undergoing regular thorough checks. All to ensure you savor a natural, fresh and simply delicious experience every time.</p>
+                    </div>
+                </div>
+
+                <!--  -->
+                <br>
+                <hr>
+                <div style="margin-top: 40px; margin-bottom: 40px;">
+
+                    <h4 style="text-align: center;">Your are what you eat. So Eat Sensibly</h4>
+                </div>
+
+
+                <div class="row" style="display: flex; justify-content: space-between;">
+
+                    <div class="col-md-3" style="margin-right: 40px; border: 1px solid #EBEBEB; margin-left: 5px;">
+                        <h4 style="text-align: left; padding-left: 15px; color: #f1373d;">Nothing But the Best for you!</h4>
+                        <p style="text-align: left; padding: 15px;">Our Quality Assurance Team defends our high standards harder than any Italian football squad. To be a Pizza Hut supplier means passing a very rigorous selection process, and undergoing regular thorough checks. All to ensure you savor a natural, fresh and simply delicious experience every time.</p>
+                    </div>
+
+                    <div class="col-md-3" style="border:  1px solid #EBEBEB; margin-right: 5px;">
+                        <h4 style="text-align: left; padding-left: 15px; color: #f1373d;">Nothing But the Best for you!</h4>
+                        <p style="text-align: left; padding: 15px;">Our Quality Assurance Team defends our high standards harder than any Italian football squad. To be a Pizza Hut supplier means passing a very rigorous selection process, and undergoing regular thorough checks. All to ensure you savor a natural, fresh and simply delicious experience every time.</p>
+                    </div>
+                </div>
+
+
+                <br>
+                <br>
+                <hr>
+                <h4 style="text-align: center;"> 10 Nutrition Facts</h4>
+                <p style="text-align: left; padding: 15px;">
+                    Since your health is as important to Pizza Hut as your satisfaction, we encourage you to know more about our nutritional values so you can choose smartly and healthily.
+                </p>
+
+                <ul style="list-style-type: disc; color: black; margin-left: 30px;">
+                    <li>A complete meal, pizza contains elements of each of the 5 main food groups.</li>
+                    <li>Our expert dough masters come early in the morning to ensure that customers get the freshest dough possible.</li>
+                    <li>Our vegetable toppings offer an array of nutrients like vitamins, minerals and phytonutrients.</li>
+                    <li>Our pizzas are rich in energy-boosting complex carbohydrates to fuel your body and brain throughout the day.</li>
+                    <li>Our salad bar offers a rich mix of nutritious veggies and seasonings.</li>
+                    <li>Two slices of a Super Supreme Pizza help meet your daily protein (meat, poultry or seafood) needs.</li>
+                    <li>Our cheese is a source of calcium, vitamins C and D for healthy bones.</li>
+                    <li>Our pizzas and pastas contain essential vitamins and minerals like iron and calcium.</li>
+                    <li>We serve only 100% pure halal beef and chicken using 100% vegetable oil.</li>
+                    <li>Great tasting and made for sharing!</li>
+                    <br>
+                </ul>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<section class="NUTRATIons_informat">
+    <h6 >
+        <a href="" class="NUTRATIons_informatlink" style="color: #ff1439;">View Nutration Values</a>
+    </h6>
+    <br>
+    <h5>Lorem ipsum dolor sit amet ?</h5>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam.</p>
+
+    <div class="first_element_Nut">
+        <h5>Active LifeStyle</h5>
+        <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+
+    </div>
+
+    <div class="first_element_Nut1">
+        <h5>Active LifeStyle</h5>
+        <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+
+    </div>
+
+    <div class="first_element_Nut2">
+        <h5>Active LifeStyle</h5>
+        <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+
+    </div>
+
+    <div class="first_element_Nut3">
+        <h5>Active LifeStyle</h5>
+        <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+
+    </div>
+    <div class="first_TXT_Nut4">
+        <h5>Energy For A Day *kcal</h5>
+        <br>
+        <h5>Energy For A Day *kcal</h5>
+
+        <p>Male</p>
+        <p>Age 18 To 60</p>
+        <p>2500 -  3000 kcal</p>
+        <p>2500 -  3000 </p>
+        <p>Female</p>
+        <p>Age 18 To 60</p>
+        <p>2500 -  3000</p>
+        <p>2500 -  3000 kacl</p>
+
+        <p>Tenager</p>
+        <p>Age 18 To 60</p>
+        <p>2500 -  3000</p>
+        <p>2500 -  3000</p>
+
+        <p>]Child</p>
+        <p>Age 6 To 13</p>
+        <p>1400 -  3000</p>
+        <p>2500 -  5400</p>
+
+        <p>*For people with moderate physical activity and average weight... and if you're smart about food choices,than there can still be room for the occasional treat!</p>
+        <div class="first_element_Nut2">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+    
+        <div class="first_element_Nut3">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+
+        <div class="first_element_Nut2">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+    
+        <div class="first_element_Nut3">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+
+        <div class="first_element_Nut2">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+    
+        <div class="first_element_Nut3">
+            <h5>Active LifeStyle</h5>
+            <p>Put your Mount Everest plans and Olympic tryouts on hold. By "active lifestyle", all we mean is at least 30 minutes of exercise every day. Want to workout in a gym? Good. Climbing stairs and taking strolls? No problem! Any physical exertion that makes you sweat a little will do a lot for your health.</p>
+    
+        </div>
+
+        <ul class="ULLISTTxT_Nut">
+            <li>to respond and/or deal with your request or enquiry;</li>
+            <li>to administer your membership of the Sites and App(s) if you have registered with Us;</li>
+            <li>to fulfil prizes in any competitions you may enter;</li>
+            <li>to process and administer your order(s) or purchase(s) through our Site(s) or App(s);</li>
+            <li>to improve our products and services and to ensure that content from the Sites and Apps is presented in the most effective manner for you and for your computer (or other devices);</li>
+            <li>to administer the Sites, Apps and for internal record keeping, business development and research (including anonymisation of your personal information for future statistical analysis);</li>
+            <li>where necessary in the event of a corporate sale, merger, acquisition, or similar event;</li>
+            <li>to contact you (directly, either by us or through a relevant partner or agent) by e-mail or phone for the above reasons;</li>
+            <li>to conduct checks on the details you provide to Us, where appropriate, to assist with fraud prevention schemes; and</li>
+            <li>for compliance with legal, regulatory and other good governance obligations (including in connection with a court order, government investigation, or when otherwise required by law).</li>
+        </ul>
+        <!-- <br> -->
+
+    </div>
+
+</section>
+
+<!--==================== F O O T E R ====================-->
+
+<footer class="Footer_OF_Page" >
+    <div class="Footer_OF_div1">
+        <a href="deals.html">Deals</a>
+        <a href="aboutus.html">About us</a>
+        <a href="Customerserves.html">Customer serves</a>
+        <a href="policis.html">policies</a>
+        <a href="Nutration.html">Nutriton</a>
+    </div>
+    <div class="Footer_OF_div2" >
+        <div class="Footer_OF_div2_LEFT">
+            <p>Connect With Pizza Hut</p>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="Footer_OF_div2_RIGHT" style="display: flex; justify-content: space-between; gap: 40px; margin-right: 90px; color: #fff;">
+            <p style="color: gray;">Select Country</p>
+            <img src="assets/img/egypt.png" width="30px" alt="">EGYPT
+            <a href="" style="color: #668E0B;">Change</a>
+        </div>
+
+    </div>
+    <div class="LLCPIZZAHut">
+        <p>&#169; 2021 Pizza Hut Restaurants LLC. Featured Product availble at Participating Locations only. All rights reserved. Terms & Conditons apply.</p>
+    </div>
+</footer>
+
+
+    <!--==================== F O O T E R ====================-->
+
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        
+const accordionItems = document.querySelectorAll('.questions__item')
+
+accordionItems.forEach((item) =>{
+    const accordionHeader = item.querySelector('.questions__header')
+
+    accordionHeader.addEventListener('click', () =>{
+        const openItem = document.querySelector('.accordion-open')
+
+        toggleItem(item)
+
+        if(openItem && openItem!== item){
+            toggleItem(openItem)
+        }
+    })
+})
+
+const toggleItem = (item) =>{
+    const accordionContent = item.querySelector('.questions__content')
+
+    if(item.classList.contains('accordion-open')){
+        accordionContent.removeAttribute('style')
+        item.classList.remove('accordion-open')
+    }else{
+        accordionContent.style.height = accordionContent.scrollHeight + 'px'
+        item.classList.add('accordion-open')
+    }
+
+}
+    </script>
+</body>
+</html>

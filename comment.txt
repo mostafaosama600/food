@@ -1,0 +1,215 @@
+            <!--==================== H O M E ====================-->
+            <!-- <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/pexels-rodion-kutsaiev-7911758.jpg" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Sparks of imagination <b id="bold_P">light up</b> every design</h1>
+                        <p class="home__description">Our team can create amazing web experiences, beginning with deep market research.</p>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Get In Touch</span>
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            
+
+            <!--==================== A B O U T ====================-->
+            <!-- <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/pexels-rodion-kutsaiev-7911758.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Who we really are <b id="bold_P">& </b> <br> why choose us</h2>
+
+                        <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Error exercitationem, maxime laborum cum iusto eos ea. Nam mollitia et corrupti!</p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur.
+                            </p>
+
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur.
+                            </p>
+
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur.
+                            </p>
+
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+CSS3 >
+
+
+
+/*=============== HOME ===============*/
+/* .home {
+  padding: 3.5rem 0 2rem;
+}
+
+.home__container {
+  position: relative;
+  row-gap: 2rem;
+}
+
+.home__img {
+  width: 200px;
+  justify-self: center;
+}
+
+.home__title {
+  color: #111;
+  font-size: var(--big-font-size);
+  line-height: 140%;
+  margin-bottom: var(--mb-1);
+}
+
+.home__description {
+  margin-bottom: var(--mb-2-5);
+}
+
+.home__social {
+  position: absolute;
+  top: 2rem;
+  right: -1rem;
+  display: grid;
+  justify-items: center;
+  row-gap: 3.5rem;
+}
+
+.home__social-follow {
+  font-weight: var(--font-medium);
+  font-size: var(--smaller-font-size);
+  color: #fe6551;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.home__social-follow::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 2px;
+  background-color: #fe6551;
+  right: -45%;
+  top: 50%;
+}
+
+.home__social-links {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 0.95rem;
+}
+
+.home__social-link {
+  font-size: 1rem;
+  color: #fe6551;
+  transition: 0.3s;
+}
+
+.home__social-link:hover {
+  transform: translateX(0.25rem);
+  color: rgb(240, 201, 150);
+} */
+
+/*=============== BUTTONS ===============*/
+/* .button {
+  display: inline-block;
+  background-color: transparent;
+  border: 0.6px solid #fe6551;
+  color: #000;
+  padding: 1rem 1.75rem;
+  border-radius: 1.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: #fafafa;
+  background-color: #fe6551;
+}
+
+.button__icon {
+  transition: 0.3s;
+}
+
+.button:hover .button__icon {
+  transform: translateX(0.25rem);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.button--link {
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.button--link:hover .button__icon {
+  transform: translateX(0.25rem);
+} */
+
+/*=============== ABOUT ===============*/
+/* .about__container {
+  row-gap: 2rem;
+}
+
+.about__img {
+  width: 280px;
+  justify-self: center;
+}
+
+.about__title {
+  margin-bottom: var(--mb-1);
+}
+
+.about__description {
+  margin-bottom: var(--mb-2);
+}
+
+.about__details {
+  display: grid;
+  row-gap: 1rem;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__details-description {
+  display: inline-flex;
+  column-gap: 0.5rem;
+  font-size: var(--small-font-size);
+}
+
+.about__details-icon {
+  font-size: 1rem;
+  color: #fe6551;
+  margin-top: 0.15rem;
+} */

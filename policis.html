@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Pizza Hut</title>
+    </head>
+    <body style="background-color: #EBEBEB;">
+        <!--==================== H E A D E R ====================-->
+        <header class="header" style="  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);" id="header">
+            <nav class="nav container">
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+
+                <a href="index.html" class="nav__logo">
+                    <img src="./assets/img/pizzahutLogo.png" width="50px" alt=""></a>
+
+
+                <div class="nav__menu" id="nav-menu">
+                    
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="sign.html" class="nav__link active-link"> <i class="fas fa-sign-in-alt"></i> Sign</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="createAcc.html" class="nav__link"> <i class="fas fa-user-plus"></i> create Account</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="FindPizzaHut.html" class="nav__link"> <i class="fas fa-thumbtack"></i> Find a Pizza Hut</a>
+                        </li>
+
+                    </ul>
+
+                    <section class="MenuAppSection">
+                        <div class="MenuApp">
+                            <div class="MenuAppContentIMg">
+                                <img src="/assets/img/pizzahutLogo.png" width="40px" alt="">
+                            </div>
+                            <div class="MenuAppContentTxt">
+                                <p>Login To Unlock exclusive</p>
+                                <h5>Deals And Discounts</h5>
+                            </div>
+    
+                            <div class="MenuAppContentBtn">
+                                <a href="" >Sign in</a>
+                            </div>
+                        </div>
+    
+                        <div class="language">
+                            <div class="StartLanjuagE">
+                                <div class="LangOne">
+                                    <i class="fas fa-globe"> Language :</i>
+                                </div>
+                                <div class="LangTwo">
+                                    <a href=""> العربيه</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                    <section class="navUp">
+                        <div class="questions__item" style="margin-left: -40px; margin-top: 20px;">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Menu List
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description" style="background-color: #EBEBEB;">
+                                    <a class="ancorLinkFirst_menu_list" href="deals.html">Deals</a>
+                                    <br>
+                                    <br>
+                                    <a class="ancorLink_menu_list"  href="pizza.html">Pizza</a>
+                                    <br>
+                                    <br>
+                                    <a class="ancorLink_menu_list" href="Starters.html">Starters</a>
+                                    <br>
+                                    <br>
+                                    <a class="ancorLink_menu_list" href="salads.html">Salads</a>
+                                    <br>
+                                    <br>
+                                    <a class="ancorLink_menu_list" href="deserts.html">Desert</a>
+                                    <br>
+                                    <br>
+                                    <a class="ancorLink_menu_list" href="drinks.html">Drinks</a>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                        <div class="FaQToCallUs">
+                            <a href="">FAQ</a>
+                            <br>
+                            <br>
+                            <a href="">Terms & Conditions</a>
+                        </div>
+                        <br>
+                        <a href="" class="cALLUss">Call Us</a>
+                        
+                    </section>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <a href="" class="Arabica"> العربيه</a>
+            </nav>
+
+            <section class="NaviGatioNS">
+
+                <ul class="navigationX">
+                    <li><a class="link_OF_Navigation2" href="deals.html">Deals</a></li>
+                    <li><a class="link_OF_Navigation2" href="pizza.html">Pizza</a></li>
+                    <li><a class="link_OF_Navigation2" href="Starters.html">Starters</a></li>
+                    <li><a class="link_OF_Navigation2" href="salads.html">Salads</a></li>
+                    <li class="menuX">
+                        <a href="">More <i class="fas fa-chevron-down"></i> </a>
+                        <ul class="submenuX">
+                            <li><a href="deserts.html">Desert</a></li>
+                            <li><a href="drinks.html">Drinks</a></li>
+                        </ul>
+                    </li>
+                    <!--  -->
+                    <ul class="navigationZ">
+                        <li><a href="">EGP 00.00</a></li>
+                        <li><a href="cart.html"> Cart</a></li>
+                        <li><a onclick="togglePopOrdaring();" class="START_OR_daring" href="#">Start Your Order</a></li>
+                        
+                    </ul>
+                </ul>
+            </section>
+        </header>
+
+        <!--==================== OUR POLICY ====================-->
+        <section class="our_policy">
+            <div class="container our_policy_container1" >
+                <div style="margin-top: 140px !important;">
+                    <h1>PRIVACY POLICY</h1>
+                </div>
+            </div>
+            <div class="container-fluid our_policy_container2" style="margin-top: 0px;">
+                <p>Pizza Hut MENAPAK S.à r.l. or any of its subsidiaries, affiliates and its franchisees (hereinafter referred to as either, “Pizza Hut”, “we”, “us” or “our”) are committed to protecting the privacy of any personal information you may provide us on this website and any other websites of ours (including www.pizzahut.me, together the “Sites”) and on any of our mobile applications (the “App(s)”).</p>
+                <br>
+                <p>We believe it is important for you to know how we treat your personal information. The terms of this Privacy Policy apply to all users of the Sites and all users of the App(s). If you do not agree with the terms of this Privacy Policy, you should immediately cease the use of the Sites or the App(s), as applicable. Below you will find answers to questions regarding our Privacy Policy.</p>
+                    <ul style="padding-left: 50px; padding-top: 10px; padding-bottom: 10px; list-style-type: disc;">
+                        <li>What information does Pizza Hut collect about me?</li>
+                        <li>What does Pizza Hut do with the information collected?</li>
+                        <li>With whom does Pizza Hut share the information?</li>
+                        <li>How can I stop receiving notices about future offers or to stop my Personal Information from being shared with third parties?</li>
+                        <li>How do I correct or update my Personal Information?</li>
+                        <li>How does Pizza Hut protect the security of my Personal Information?</li>
+                        <li>Do Pizza Hut's Sites and App(s) link to other sites?</li>
+                        <li>How will Pizza Hut notify me of changes to its Privacy Policy?</li>
+                        <li>How does Pizza Hut handle children’s privacy on the Sites and on the App(s)?</li>
+                        <li>How do I contact Pizza Hut?</li>
+                    </ul>
+
+
+                <p style="color: #000; font-weight: 500;">
+                    WHAT INFORMATION DOES PIZZA HUT COLLECT ABOUT ME?
+                </p>
+                <p>Personal Information means information which on its own or in combination with other information, allows identification of an individual. We will collect personal information about you which you voluntarily provide, for example, in the context of completing online forms on the Sites or within the App(s) or by corresponding with us.</p>
+                <p>Sensitive personal information means personal information relating to physical or mental health, race or ethnicity, sexual life/preference, political opinions, religious or philosophical beliefs and/or criminal allegations or convictions.</p>
+                <p>Where you choose to provide personal details to us either in person, at a store, through the Site(s) or the App(s), we may collect the following personal information from you:</p>
+
+                <ul style="padding-left: 50px; padding-top: 10px; padding-bottom: 10px; list-style-type: disc;">
+                    <li>your full name, title and gender;</li>
+                    <li>if you create an account with us (whether through a Site or an App) - further details including your password and account preferences;</li>
+                    <li>your contact and marketing preferences;</li>
+                    <li>if you take a survey or interact with us in various other ways - demographics information and information about subjects that may interest you;</li>
+                    <li>should you choose to create an account with us on our Site(s) using (or linking to) your Facebook or other social media profile(s) - information contained within your social media account such as contacts, friends, likes, posts and other information that you choose to share with us through the privacy settings on your social media account(s);</li>
+                    <li>information you provide to us which reports a problem(s) with any of the Site(s) or App(s) and any further details requested from you to help us deal with such problem(s);</li>
+                    <li>information necessary for legal compliance;</li>
+
+                    <li>where you “like” us or make posts on our pages on social networking websites;</li>
+                    <li>technical information about the device which you use (for example the device type), log information (details of your use of our Sites and App(s));</li>
+                    <li>details of your location (where you visit us in person in store, or choose to activate the location related functions of any Site or App);</li>
+                    <li>your order information and history; and/or</li>
+                    <li>any other information you may voluntarily provide to us.</li>
+                
+                
+                
+                
+                
+                </ul>
+                <p>Depending on the Site(s) you are browsing, when you voluntarily provide us with your Personal Information, you may be given the option to receive future offers and updates from Pizza Hut by e-mail and SMS marketing by checking the appropriate opt-in box. If you choose to opt-in, your Personal Information will be kept in a secured database and we will alert you via e-mail or SMS (as indicated by you) with information about our great Pizza Hut offers and services. You can change your preferences in this regard at any time, as set out below.</p>
+
+                <p>You do not have to provide us with any sensitive personal information. Where you choose to provide us with such sensitive personal information, by submitting that information to us, you are providing your consent to those details being collected and otherwise processed by Us.</p>
+
+                <p style="color: #000; font-weight: 500;">WHAT DOES PIZZA HUT DO WITH THE INFORMATION COLLECTED?</p>
+
+                <p>Pizza Hut may use your Personal Information for any of the following purposes (or as otherwise notified to you from time to time):</p>
+
+                <ul style="padding-left: 50px; padding-top: 10px; padding-bottom: 10px; list-style-type: disc;">
+                    <li>to respond and/or deal with your request or enquiry;</li>
+                    <li>to administer your membership of the Sites and App(s) if you have registered with Us;</li>
+                    <li>to fulfil prizes in any competitions you may enter;</li>
+                    <li>to process and administer your order(s) or purchase(s) through our Site(s) or App(s);</li>
+                    <li>to improve our products and services and to ensure that content from the Sites and Apps is presented in the most effective manner for you and for your computer (or other devices);</li>
+                    <li>to administer the Sites, Apps and for internal record keeping, business development and research (including anonymisation of your personal information for future statistical analysis);</li>
+                    <li>where necessary in the event of a corporate sale, merger, acquisition, or similar event;</li>
+                    <li>to contact you (directly, either by us or through a relevant partner or agent) by e-mail or phone for the above reasons;</li>
+                    <li>to conduct checks on the details you provide to Us, where appropriate, to assist with fraud prevention schemes; and</li>
+                    <li>for compliance with legal, regulatory and other good governance obligations (including in connection with a court order, government investigation, or when otherwise required by law).</li>
+                </ul>
+                <p>This list is not intended to be exhaustive and may be updated from time to time as business needs and legal requirements dictate.</p>
+                <h4>WITH WHOM DOES IZZA HUT SHARE THE INFORMATION?</h4>
+                <p>Pizza Hut may share any Personal Information which it collects with any of its group companies or with its franchisees. Your personal information will be made available for the purposes mentioned above (or as otherwise notified to you from time to time), on a ‘need-to-know' basis and only to responsible corporate staff who properly need to know these details to carry out our functions.</p>
+                <p>As part of achieving the processing purposes set out above, your personal information may also be made available to third party organisations providing relevant services to us under contract. For example, this may include working with third party data processing companies to support the Sites’ technical operations or execute a specific promotion or program (such as providing responses to the guest comments page, conduct surveys, or maintain a database of visitor information, etc). These companies may use    information about you to perform their functions on our behalf.;</p>
+                <p>As Pizza Hut and its group companies operate globally, it may be necessary to transfer your Personal Information cross-border for the purposes set out above. We will ensure that adequate safeguards are in place to protect your Personal Information. By submitting your Personal Information, you agree to this transfer, storing and other processing.</p>
+                <p>This policy applies if Pizza Hut shares your Personal Information with any of its group companies. If you choose to provide your Personal Information directly to Pizza Hut’s group companies through their respective websites, then their additional Privacy Policies will apply and should also be reviewed by you.</p>
+                <h4>HOW CAN I STOP RECEIVING NOTICES ABOUT FUTURE OFFERS OR TO STOP MY PERSONAL INFORMATION FROM BEING SHARED WITH THIRD PARTIES?</h4>
+                <p>Please let us know by writing to us at the address given at the bottom of this policy. In addition, each time we send you marketing information by e-mail or SMS text messaging, we will provide an opportunity for you to unsubscribe from receiving further information from us.</p>
+                <h4>HOW DO I CORRECT OR UPDATE MY PERSONAL INFORMATION?</h4>
+                <p>You control the accuracy of your Personal Information. If your Personal Information changes, please correct, update or delete/deactivate it by writing to us at the address given at the bottom of this policy.</p>
+                <h4>HOW DOES PIZZA HUT PROTECT THE SECURITY OF MY PERSONAL INFORMATION?</h4>
+                <p>Pizza Hut uses appropriate security measures to protect all Personal Information collected in a secure, controlled environment.</p>
+                <p>Where we have given you (or where you have chosen) a password that enables you to access certain parts of our Sites or App(s), you are responsible for keeping this password confidential. We ask you not to share your password with anyone.</p>
+                <p>Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your Personal Information, We cannot guarantee the security of your data transmitted to our Sites or App(s); any transmission is at your own risk. Once we have received your information, We will use strict procedures and security features to try to prevent unauthorised access.</p>
+                <h4>DO PIZZA HUT'S SITES AND APP(S) LINK TO OTHER SITES?</h4>
+                <p>Yes. The Sites and App(s) may contain links to other websites that may not be owned or operated by Pizza Hut. Pizza Hut cannot control nor is responsible for the privacy practices or content of such other websites. Pizza Hut encourages you to read the privacy statements of each and every website that collects personally identifiable information. This Privacy Policy applies solely to Personal Information collected on the Sites and App(s).</p>
+                <h4>HOW WILL PIZZA HUT NOTIFY ME OF CHANGES TO ITS PRIVACY POLICY?</h4>
+                <p>Pizza Hut will post any changes to the Policy on the Sites homepages so visitors are always aware of any changes to what information we collect, how we use it, and under what circumstances we disclose it. The new terms may be displayed on-screen and you may be required to read and accept them to continue your use of the Sites or the App(s). If we decide to use your Personal Information in a manner different than first communicated, Pizza Hut will notify users by e-mail to the e-mail addresses on record. Users of the Sites / Apps will then be given a choice as to whether or not their Personal Information can be used in the new manner.</p>
+                <h4>HOW DOES PIZZA HUT HANDLE CHILDREN'S PRIVACY ON THE SITES AND ON THE APP(S)</h4>
+                <p>We take great care to protect the privacy of all of our customers and we are especially careful in relation to any communications with children. It is important to us that children can enjoy our Sites and App(s) responsibly. Our policy is not to collect Personal Information from children who are under the age of 12. If you are under 12, please do not use our Sites or App(s).</p>
+                <p>We encourage parents to regularly monitor and supervise their children's online activities, for example, by adopting parental control tools. If you are a parent and have any concerns about the collection or use of your child's Personal Information then you may contact us using the contact details below.</p>
+                <h4>HOW DO I CONTACT PIZZA HUT? ?</h4>
+                <p>If you have any further questions concerning the Pizza Hut's Privacy Policy and the use of your Personal Information, please contact  
+                    <a href="" style="color: #f1373d; text-decoration: underline;">info@pizzahut.me</a>
+                </p>
+                <br>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <section class="Mobile_Policies">
+            <div class="head_policx">
+                <h4>PRIVACY POLICY</h4>
+
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="ri-add-line questions__icon"></i>
+                        <h3 class="questions__item-title">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </h3>
+                    </header>
+
+                    <div class="questions__content">
+                        <p class="questions__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Corrupti illum dolores odio vero aliquid molestiae.
+                        </p>
+                    </div>
+                </div>
+                <p class="txtt_policx"> The Website Policies and Terms & Conditions may be changed or updated occasionally to meet the requirements and standards. Therefore the Customers’ are encouraged to frequently visit these sections in order to be updated about the changes on the website. Modifications will be effective on the day they are posted </p>
+
+
+            </div>
+            
+        </section>
+
+
+
+    <!--==================== F O O T E R ====================-->
+
+    <footer class="Footer_OF_Page" >
+        <div class="Footer_OF_div1">
+            <a href="deals.html">Deals</a>
+            <a href="aboutus.html">About us</a>
+            <a href="Customerserves.html">Customer serves</a>
+            <a href="policis.html">policies</a>
+            <a href="Nutration.html">Nutriton</a>
+        </div>
+        <div class="Footer_OF_div2" >
+            <div class="Footer_OF_div2_LEFT">
+                <p>Connect With Pizza Hut</p>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="Footer_OF_div2_RIGHT" style="display: flex; justify-content: space-between; gap: 40px; margin-right: 90px; color: #fff;">
+                <p style="color: gray;">Select Country</p>
+                <img src="assets/img/egypt.png" width="30px" alt="">EGYPT
+                <a href="" style="color: #668E0B;">Change</a>
+            </div>
+
+        </div>
+        <div class="LLCPIZZAHut">
+            <p>&#169; 2021 Pizza Hut Restaurants LLC. Featured Product availble at Participating Locations only. All rights reserved. Terms & Conditons apply.</p>
+        </div>
+    </footer>
+
+
+        <!--==================== F O O T E R ====================-->
+
+        <script src="assets/js/main.js"></script>
+
+<script>
+            
+/*=============== QUESTIONS ACCORDION ===============*/
+const accordionItems = document.querySelectorAll('.questions__item')
+
+accordionItems.forEach((item) =>{
+    const accordionHeader = item.querySelector('.questions__header')
+
+    accordionHeader.addEventListener('click', () =>{
+        const openItem = document.querySelector('.accordion-open')
+
+        toggleItem(item)
+
+        if(openItem && openItem!== item){
+            toggleItem(openItem)
+        }
+    })
+})
+
+const toggleItem = (item) =>{
+    const accordionContent = item.querySelector('.questions__content')
+
+    if(item.classList.contains('accordion-open')){
+        accordionContent.removeAttribute('style')
+        item.classList.remove('accordion-open')
+    }else{
+        accordionContent.style.height = accordionContent.scrollHeight + 'px'
+        item.classList.add('accordion-open')
+    }
+
+}
+
+        </script>
+    </body>
+</html>
